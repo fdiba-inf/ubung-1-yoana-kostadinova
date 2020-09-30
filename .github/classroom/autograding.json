@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Hello Fdiba",
+      "setup": "cd src && javac exercise1/HelloFdiba.java",
+      "run": "cd src && java exercise1.HelloFdiba",
+      "input": "",
+      "output": "Hello FDIBA!",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Fdiba Output",
+      "setup": "cd src && javac exercise1/FdibaOutput.java",
+      "run": "cd src && java exercise1.FdibaOutput",
+      "input": "",
+      "output": "FFFFF DDDDD   II BBBBB      A\r\nF     D    D  II B    B    A A\r\nFFFF  D     D II BBBBB    AAAAA\r\nF     D    D  II B    B  A     A\r\nF     DDDDD   II BBBBB  A       A",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Tree",
+      "setup": "cd src && javac exercise1/Tree.java",
+      "run": "cd src && java exercise1.Tree",
+      "input": "",
+      "output": "    *\r\n   ***\r\n  *****\r\n *******\r\n*********\r\n   ***",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Hello World",
+      "setup": "cd src && javac exercise1/HelloWorld.java",
+      "run": "cd src && java exercise1.HelloWorld",
+      "input": "",
+      "output": "Hello World!",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
